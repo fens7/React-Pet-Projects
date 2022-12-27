@@ -7,13 +7,13 @@ function App() {
     return (
         <div className='App'>
             <div>
-                <h2>Счетчик:</h2>
+                <h2>Counter:</h2>
                 <h1>{count}</h1>
                 <button onClick={() => setCount(count - 1)} className='minus'>
-                    - Минус
+                    Minus
                 </button>
                 <button onClick={() => setCount(count + 1)} className='plus'>
-                    Плюс +
+                    Plus
                 </button>
             </div>
         </div>
